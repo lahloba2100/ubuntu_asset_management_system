@@ -9,6 +9,11 @@ cd ~/Desktop/PYTHON/PROJECT/asset_management_system
 cd ~/Downloads/ubuntu_asset_management_system-master
 
 git remote set-url origin https://github.com/lahloba2100/ubuntu_asset_management_system.git
+git config --global user.email "lahloba2100@gmail.com"
+git config --global user.name "lahloba2100"
+git checkout -b master 
+git push origin master
+git push --force origin master
 
 
 pip install django-extensions
